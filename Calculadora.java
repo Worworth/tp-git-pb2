@@ -4,8 +4,28 @@ public class Ahorcado {
 		Integer a;
 		Integer b;
 		Integer opcion;
-		Integer resultado;
-		do{
+		Integer resultado=0;
+		Scanner teclado;
+		
+		opcion=teclado.nextInt();
+		System.out.println("Ingrese su operación /n 1 para sumar /n 2 para
+				restar /n 3 para multiplicar /n 4 para dividir");
+		switch(opcion) {
+		  case 1:
+			  resultado = a + b;
+		    break;
+		  case 2:
+			  resultado = a - b;
+		    break;
+		  case 3:
+			  resultado = a * b;
+			  break;
+		  case 4:
+			  resultado = a / b;
+			  break;
+		  default:
+			  System.out.println("ingrese numeros validos");
+		/*do{
 		System.out.println("Ingrese su operación /n 1 para sumar /n 2 para
 		restar /n 3 para multiplicar /n 4 para dividir");
 		opcion = teclado.next();
@@ -22,7 +42,7 @@ public class Ahorcado {
 		resultado = a * b;
 		}else{
 		resultado = a / b;
-		}
+		}*/
 		System.out.println("El resultado es " + resultado.toString());
 	}
 }
