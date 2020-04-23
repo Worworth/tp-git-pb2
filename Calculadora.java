@@ -1,4 +1,4 @@
-import java.util.Scanner;
+﻿import java.util.Scanner;
 public class Ahorcado {
 	public static void main(String[] args) {
 		Integer a;
@@ -9,6 +9,10 @@ public class Ahorcado {
 		System.out.println("Ingrese su operación /n 1 para dividir /n 2 para sumar /n 3 para restar /n 4 para multiplicar");
 		Scanner teclado;
 		opcion=teclado.nextInt();
+		System.out.println("Ingrese el primer numero");
+		a = teclado.next();
+		System.out.println("Ingrese el segundo numero");
+		b = teclado.next();
 		switch(opcion) {
 		  case 1:
 			  resultado = a / b;
