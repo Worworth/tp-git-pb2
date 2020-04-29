@@ -1,0 +1,7 @@
+
+5- Aparece el error  ! [rejected]        master -> master (fetch first)
+. Las acciones a tomar antes de realizar el push seria actualizar tu repositorio local con lo actualizado en el remoto. Una estrategia seria crear ramas
+para que cada uno pueda trabajar sin alterar el master y luegojuntar todo.
+6-Crea una nueva rama del master.
+
+9-Es mas sencillo de esta manera que actualizar y trabajar con la consola. Siempre mantener el las pull request en solicitar confirmacion 
